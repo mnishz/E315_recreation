@@ -5,7 +5,7 @@ int main(void)
 {
     for (int i = 0; (i < 10); ++i) {
         for (int j = 0; (j < 100); ++j) {
-            printf("%d\n", j);
+            printf("%d - %d\n", i, j);
         }
         sleep(1);
     }
